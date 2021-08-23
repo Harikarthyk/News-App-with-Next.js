@@ -84,7 +84,6 @@ export const getServerSideProps = async pageContext => {
   ).then(res => res.json());
 
   const { articles } = response;
-    console.log(articles,'===')
   return {
     props: {
       articles: articles,
