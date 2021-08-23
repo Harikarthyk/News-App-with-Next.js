@@ -10,7 +10,9 @@ export default function Home() {
       <div className={styles.main}>
         <h1>Next.js News App</h1>
 
-        <h3>All Information are fetched from newsapi.org</h3>
+        <h3 style={{
+          textAlign : "center"
+        }}>All Information are fetched from newsapi.org</h3>
       </div>
     </div>
   );
